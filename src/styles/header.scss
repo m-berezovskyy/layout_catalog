@@ -45,7 +45,7 @@
   text-decoration: none;
   font-family: $font-main;
   text-transform: uppercase;
-  transition: color 0.3s ease;
+  transition: color $transition-duration $transition-timing;
   padding: 24px 0;
   position: relative;
 

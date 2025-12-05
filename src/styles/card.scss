@@ -90,6 +90,7 @@
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
+    transition: background-color $transition-duration $transition-timing, color $transition-duration $transition-timing;
 
     &:hover {
       background-color: $color-button-text;
